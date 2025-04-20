@@ -3,7 +3,7 @@ import {Button} from '../ui/button';
 import Link from 'next/link';
 
 export default function NotFoundPage() {
-  const t = useTranslations('NotFoundPage');
+  const t = (useTranslations as any)('NotFoundPage');
 
   return (
     <div className="h-[65vh] flex justify-center items-center flex-col gap-6">

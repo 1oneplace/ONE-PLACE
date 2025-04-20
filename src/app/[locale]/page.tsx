@@ -9,7 +9,7 @@ import {ArrowRight} from 'lucide-react';
 import TestimonialCarousel from '@/components/TestimonialCarousel';
 
 export default function HomePage() {
-  const t = useTranslations('home');
+  const t = (useTranslations as any)('home');
 
   const services = t.raw('services') as {
     icon: string;

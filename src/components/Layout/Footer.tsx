@@ -3,7 +3,7 @@ import {Mail, Phone, MapPin} from 'lucide-react';
 import Link from 'next/link';
 
 export default function Footer() {
-  const t = useTranslations('Footer');
+  const t = (useTranslations as any)('Footer');
 
   return (
     <footer className="bg-background text-center text-foreground border-t border-border ">

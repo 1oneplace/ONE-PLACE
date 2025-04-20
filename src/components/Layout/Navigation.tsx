@@ -13,7 +13,7 @@ import {
 import {List} from 'lucide-react';
 
 export default function Navigation() {
-  const t = useTranslations('NavItems');
+  const t = (useTranslations as any)('NavItems');
 
   return (
     <div className=" bg-background text-foreground border-b border-border">

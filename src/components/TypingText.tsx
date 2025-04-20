@@ -3,7 +3,7 @@ import {useTranslations} from 'next-intl';
 import TypeIt from 'typeit-react';
 
 const TypingText = () => {
-  const t = useTranslations('home');
+  const t = (useTranslations as any)('home');
   return (
     <div className="text-muted-foreground font-semibold text-xl">
       <TypeIt
