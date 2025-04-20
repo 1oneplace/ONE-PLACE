@@ -3,7 +3,7 @@ import {getTranslations} from 'next-intl/server';
 import {routing} from '@/i18n/routing';
 
 export default async function manifest(): Promise<MetadataRoute.Manifest> {
-  const t = await getTranslations({
+  const t = await (getTranslations as any)({
     locale: routing.defaultLocale,
     namespace: 'Manifest'
   });
