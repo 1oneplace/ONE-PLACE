@@ -30,13 +30,21 @@ export default function Navigation() {
             <SheetContent side="top">
               <div className="flex flex-col justify-center items-center gap-6 text-lg font-medium mt-5">
                 <NavigationLink href="/">{t('home')}</NavigationLink>
-                <NavigationLink href="/about">{t('about')}</NavigationLink>
-                <NavigationLink href="/services">
+                <NavigationLink href={'/about' as any}>
+                  {t('about')}
+                </NavigationLink>
+                <NavigationLink href={'/services' as any}>
                   {t('services')}
                 </NavigationLink>
-                <NavigationLink href="/profile">{t('profile')}</NavigationLink>
-                <NavigationLink href="/blog">{t('blog')}</NavigationLink>
-                <NavigationLink href="/contact">{t('contact')}</NavigationLink>
+                <NavigationLink href={'/profile' as any}>
+                  {t('profile')}
+                </NavigationLink>
+                <NavigationLink href={'/blog' as any}>
+                  {t('blog')}
+                </NavigationLink>
+                <NavigationLink href={'/contact' as any}>
+                  {t('contact')}
+                </NavigationLink>
                 <LanguageSwitcher></LanguageSwitcher>
               </div>
             </SheetContent>
@@ -44,11 +52,17 @@ export default function Navigation() {
         </div>
         <div className="hidden md:flex  justify-between items-center">
           <NavigationLink href="/">{t('home')}</NavigationLink>
-          <NavigationLink href="/about">{t('about')}</NavigationLink>
-          <NavigationLink href="/services">{t('services')}</NavigationLink>
-          <NavigationLink href="/profile">{t('profile')}</NavigationLink>
-          <NavigationLink href="/blog">{t('blog')}</NavigationLink>
-          <NavigationLink href="/contact">{t('contact')}</NavigationLink>
+          <NavigationLink href={'/about' as any}>{t('about')}</NavigationLink>
+          <NavigationLink href={'/services' as any}>
+            {t('services')}
+          </NavigationLink>
+          <NavigationLink href={'/profile' as any}>
+            {t('profile')}
+          </NavigationLink>
+          <NavigationLink href={'/blog' as any}>{t('blog')}</NavigationLink>
+          <NavigationLink href={'/contact' as any}>
+            {t('contact')}
+          </NavigationLink>
           <LanguageSwitcher></LanguageSwitcher>
         </div>
         <Link href="/">
