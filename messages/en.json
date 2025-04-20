@@ -1,0 +1,238 @@
+{
+  "Error": {
+    "description": "We've unfortunately encountered an error.</p><>You can try to <retry>reload the page</retry> you were visiting.",
+    "title": "Something went wrong!"
+  },
+
+  "LocaleLayout": {
+    "title": "Welcome to ONE PLACE",
+    "description": "ONE PLACE is a platform offering comprehensive solutions for startups and entrepreneurs from planning to execution and partnerships."
+  },
+
+  "Manifest": {
+    "name": "next-intl example"
+  },
+
+  "NotFoundPage": {
+    "code": "404",
+    "description": " Sorry, the page you're looking for doesn't exist or has been moved. Please check the URL or return to the homepage.",
+    "title": "Page not found",
+    "list": ["1", "2"]
+  },
+
+  "home": {
+    "name": "ONE PLACE",
+    "slogan": "We don’t just take a role we write the scenario",
+    "ctaText": "Book your consultation now",
+    "ctaTitle": "Ready to grow your project?",
+    "howWeWork": "How We Work?",
+    "ourServices": "Our Services",
+    "viewAllServices": "View All Services",
+    "services": [
+      {
+        "icon": "📊",
+        "title": "Planning & Foundation",
+        "description": "We help you build your project from scratch"
+      },
+      {
+        "icon": "🎨",
+        "title": "Design & Branding",
+        "description": "Crafting a visual identity that speaks to your audience"
+      },
+      {
+        "icon": "📢",
+        "title": "Marketing & Sales",
+        "description": "Smart marketing plans that deliver results"
+      }
+    ]
+  },
+  "Contact": {
+    "email": "info@oneplace.com",
+    "phone": "+966501234567",
+    "whatsapp": "https://wa.me/966501234567",
+    "location": "Riyadh, Saudi Arabia",
+    "mapEmbed": "https://www.google.com/maps/embed?pb=..."
+  },
+  "SocialLinks": {
+    "twitter": "https://twitter.com/oneplace",
+    "instagram": "https://instagram.com/oneplace",
+    "linkedin": "https://linkedin.com/company/oneplace"
+  },
+  "Values": [
+    "Innovation",
+    "Commitment",
+    "Professionalism",
+    "Partnership",
+    "Transparency",
+    "Results"
+  ],
+  "WorkProcess": {
+    "title": "Our Work Process",
+    "steps": [
+      {
+        "title": "We Listen First",
+        "description": "We carefully understand your project and needs."
+      },
+      {
+        "title": "We Design the Scene",
+        "description": "We create a custom business plan and strategy."
+      },
+      {
+        "title": "We Execute",
+        "description": "We begin implementation with high quality and professionalism."
+      },
+      {
+        "title": "We Measure and Improve",
+        "description": "We evaluate performance and continue to improve."
+      }
+    ]
+  },
+  "Services": {
+    "title": "Our Services",
+    "serviceCategories": {
+      "planningAndEstablishment": {
+        "title": "Planning & Establishment",
+        "description": "We help you build your project from the ground up",
+        "points": [
+          "Feasibility Study",
+          "Market Analysis",
+          "Business Model Formulation",
+          "Establishing the Business Entity"
+        ]
+      },
+      "designAndIdentity": {
+        "title": "Design & Identity",
+        "description": "Build an identity that reflects you and attracts your audience",
+        "points": [
+          "Logo & Identity Design",
+          "Visual Identity Guide",
+          "Social Media Designs",
+          "Website Design"
+        ]
+      },
+      "marketingAndSales": {
+        "title": "Marketing & Sales",
+        "description": "Strategic marketing plans to achieve results",
+        "points": [
+          "Digital Marketing Strategies",
+          "Ad Campaign Management",
+          "Content Management",
+          "Sales Optimization"
+        ]
+      },
+      "managementAndOperations": {
+        "title": "Management & Operations",
+        "description": "We help you build and operate your team",
+        "points": [
+          "Setting Up Management Structures",
+          "Building Internal Processes",
+          "Hiring and Training",
+          "Operating Systems"
+        ]
+      },
+      "partnershipsAndConnections": {
+        "title": "Partnerships & Connections",
+        "description": "We connect you with partners that drive you forward",
+        "points": [
+          "Network of Consultants and Partners",
+          "Strategic Alliances",
+          "Connections with Funders",
+          "Entering New Markets"
+        ]
+      }
+    }
+  },
+  "UseCases": {
+    "title": "Use Cases",
+    "cases": [
+      {
+        "title": "Startups",
+        "description": "We help you launch correctly from the start."
+      },
+      {
+        "title": "Struggling Projects",
+        "description": "We restructure your project and set it on the right path."
+      },
+      {
+        "title": "Entrepreneurs",
+        "description": "We provide everything you need to build and achieve your idea."
+      },
+      {
+        "title": "Expanding Businesses",
+        "description": "We analyze the market and help you expand step by step."
+      },
+      {
+        "title": "Looking for a Comprehensive Partner",
+        "description": "We partner with you at every stage, from idea to success."
+      }
+    ]
+  },
+  "ProfileDownload": {
+    "description": "Discover our services and success stories in our profile.",
+    "cta": "Download Profile"
+  },
+  "NavItems": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "howWeWork": "How We Work",
+    "profile": "Profile",
+    "useCases": "Use Cases",
+    "blog": "Blog",
+    "contact": "Contact",
+    "testimonials": "Testimonials"
+  },
+
+  "Footer": {
+    "brand": "ONE PLACE",
+    "slogan": "Your all-in-one partner for growth",
+    "contact": "Contact Us",
+    "location": "Riyadh, Saudi Arabia",
+    "email": "info@oneplace.com",
+    "phone": "+966501234567",
+    "social": {
+      "follow_us": "Follow Us",
+      "twitter": "https://twitter.com/oneplace",
+      "instagram": "https://instagram.com/oneplace",
+      "linkedin": "https://linkedin.com/company/oneplace"
+    },
+    "copyright": "© 2025 ONE PLACE. All rights reserved."
+  },
+
+  "BlogPosts": [
+    {
+      "title": "5 Steps to Start a Successful Project",
+      "slug": "how-to-start-successfully",
+      "date": "2024-12-10",
+      "excerpt": "Are you thinking of launching a new project? Here are the 5 key steps to start on the right path."
+    },
+    {
+      "title": "The Importance of Visual Identity for Your Brand",
+      "slug": "branding-importance",
+      "date": "2025-01-05",
+      "excerpt": "Visual identity is not just a pretty logo, it is a strategic tool for marketing."
+    }
+  ],
+  "Testimonials": [
+    {
+      "name": "Ahmed Al-Zahrani",
+      "title": "Founder of XYZ Company",
+      "message": "Working with ONE PLACE changed the way we think completely, tangible results and excellent response time!"
+    },
+    {
+      "name": "Sara Al-Harbi",
+      "title": "Marketing Manager",
+      "message": "The team is very capable and understanding, they gave us practical and realistic solutions, highly recommend working with them."
+    }
+  ],
+  "Partners": [
+    {
+      "name": "Alpha Company",
+      "logo": "/images/partners/alpha-logo.png"
+    },
+    {
+      "name": "Beta Group",
+      "logo": "/images/partners/beta-logo.png"
+    }
+  ]
+}
