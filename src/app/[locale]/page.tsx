@@ -2,11 +2,12 @@
 
 import {useTranslations} from 'next-intl';
 import Link from 'next/link';
-import {Button} from '@/components/ui/button';
 import {Card, CardContent, CardHeader, CardTitle} from '@/components/ui/card';
 import TypingText from '@/components/TypingText';
 import {ArrowRight} from 'lucide-react';
-import TestimonialCarousel from '@/components/TestimonialCarousel';
+import Image from 'next/image';
+import InrefaceCarousel from '@/components/sections/InrefaceCarousel';
+import CtaButton from '@/components/CtaButton';
 
 export default function HomePage() {
   const t = (useTranslations as any)('home');
@@ -20,12 +21,28 @@ export default function HomePage() {
   return (
     <main className="space-y-16 px-6 py-12 ">
       {/* Hero Section */}
-      <section className="space-y-4 text-center">
-        <h1 className="text-6xl font-bold text-primary">{t('name')}</h1>
+      <section className="space-y-4 text-center ">
+        <div className="flex justify-center items-center">
+          <Image
+            src="/images/logo.png"
+            width={200}
+            height={100}
+            alt="logo"
+            className="rounded-xl "
+          ></Image>
+        </div>
+        <p className="text-5xl font-extrabold text-[#4D4D4D] inline">
+          ONE {'   '}
+          <span className="text-5xl font-extrabold text-primary inline">
+            PLACE
+          </span>
+        </p>
         <TypingText></TypingText>
-        <Button asChild className="mt-4 text-xl">
-          <Link href="/contact">{t('ctaText')}</Link>
-        </Button>
+
+        <CtaButton></CtaButton>
+      </section>
+      <section>
+        <InrefaceCarousel></InrefaceCarousel>
       </section>
 
       {/* Services Section */}
@@ -36,7 +53,7 @@ export default function HomePage() {
           {services.slice(0, 3).map((service, index) => (
             <Card
               key={index}
-              className=" hover:scale-105 hover:shadow-md cursor-default transition-all"
+              className=" hover:scale-105 hover:shadow-md bg-background/40 backdrop-blur-sm cursor-default transition-all"
             >
               <CardHeader>
                 <div className="text-6xl">{service.icon}</div>
@@ -54,7 +71,7 @@ export default function HomePage() {
         </div>
 
         <Link href="/services ">
-          <Card className=" group transition-all hover:bg-secondary max-w-[300px] mt-4 mx-auto duration-400 ">
+          <Card className=" group transition-all bg-background/40 backdrop-blur-sm hover:bg-secondary max-w-[300px] mt-4 mx-auto duration-400 ">
             <div className="flex justify-between items-center  p-4">
               <div className="flex justify-start items-center  gap-4">
                 <p className="my-auto text-primary group-hover:text-foreground">
@@ -68,16 +85,74 @@ export default function HomePage() {
       </section>
       {/* Testimonial  Section */}
 
-      <section>
-        <TestimonialCarousel></TestimonialCarousel>
+      {/* Our Approach Section */}
+      <section className="space-y-8">
+        <h2 className="text-center text-4xl">{t('ourApproachTitle')}</h2>
+        <p className="text-center max-w-3xl mx-auto text-muted-foreground">
+          {t('ourApproachDescription')}
+        </p>
+
+        <div className="grid gap-6 md:grid-cols-4">
+          {t
+            .raw('approachSteps')
+            .map(
+              (step: {title: string; description: string}, index: number) => (
+                <Card
+                  key={index}
+                  className="hover:scale-105 hover:shadow-md transition-all bg-background/40 backdrop-blur-sm cursor-default"
+                >
+                  <CardHeader>
+                    <CardTitle className="text-2xl">{step.title}</CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <p className="text-muted-foreground">{step.description}</p>
+                  </CardContent>
+                </Card>
+              )
+            )}
+        </div>
+
+        <div className="flex relative h-[80vh]  justify-center items-center mt-8">
+          <Image
+            src="/images/en.approach-infographic.png"
+            fill
+            alt="Approach Infographic"
+            className="rounded-xl shadow-lg"
+          />
+        </div>
       </section>
 
-      {/* How We work Section */}
-      <section className="rounded-2xl bg-secondary p-10 text-center">
-        <h3 className="mb-4 text-2xl font-medium">{t('ctaTitle')}</h3>
-        <Button asChild>
-          <Link href="/howWeWork">{t('howWeWork')}</Link>
-        </Button>
+      {/* Use Cases Section */}
+      <section className="space-y-8">
+        <h2 className="text-center text-4xl">{t('useCasesTitle')}</h2>
+        <p className="text-center max-w-3xl mx-auto text-muted-foreground">
+          {t('useCasesDescription')}
+        </p>
+
+        <div className="grid gap-6 md:grid-cols-2">
+          {t
+            .raw('useCases')
+            .map(
+              (
+                useCase: {title: string; description: string},
+                index: number
+              ) => (
+                <Card
+                  key={index}
+                  className="hover:scale-105 bg-background/40 backdrop-blur-sm hover:shadow-md transition-all cursor-default"
+                >
+                  <CardHeader>
+                    <CardTitle className="text-2xl">{useCase.title}</CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <p className="text-muted-foreground">
+                      {useCase.description}
+                    </p>
+                  </CardContent>
+                </Card>
+              )
+            )}
+        </div>
       </section>
     </main>
   );

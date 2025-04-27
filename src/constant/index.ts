@@ -1,144 +1,149 @@
 export const enTestimonials = [
   {
-    name: 'Emily R.',
-    role: 'Graphic Designer',
-    avatar: 'https://randomuser.me/api/portraits/women/1.jpg',
+    name: 'Nora A.',
+    role: 'Startup Founder',
+    avatar: 'https://randomuser.me/api/portraits/women/11.jpg',
     testimonial:
-      'The AI image generator is a game-changer! It saves me hours of work by creating stunning visuals instantly. Highly recommend!'
+      'The strategic planning services at ONE PLACE gave my business a clear roadmap and solid foundation. Their market insights were invaluable!'
   },
   {
-    name: 'Jake T.',
-    role: 'Software Engineer',
-    avatar: 'https://randomuser.me/api/portraits/men/2.jpg',
+    name: 'Ali K.',
+    role: 'Brand Manager',
+    avatar: 'https://randomuser.me/api/portraits/men/12.jpg',
     testimonial:
-      "The code generation tool is simply amazing! It helps me prototype ideas faster and even suggests optimizations I hadn't thought of."
+      'The branding and visual design team at ONE PLACE brought our vision to life with creativity and precision. We finally look as professional as we feel.'
   },
   {
-    name: 'Sophia L.',
-    role: 'Content Creator',
-    avatar: 'https://randomuser.me/api/portraits/women/3.jpg',
+    name: 'Sarah M.',
+    role: 'Marketing Lead',
+    avatar: 'https://randomuser.me/api/portraits/women/13.jpg',
     testimonial:
-      'The chatbot is super intelligent! It helps me brainstorm blog ideas and even generates engaging captions for social media.'
+      'From social media to email campaigns, ONE PLACE elevated our marketing game. Their tailored strategies deliver real results.'
   },
   {
-    name: 'Michael B.',
-    role: 'Entrepreneur',
-    avatar: 'https://randomuser.me/api/portraits/men/4.jpg',
+    name: 'Omar S.',
+    role: 'Operations Manager',
+    avatar: 'https://randomuser.me/api/portraits/men/14.jpg',
     testimonial:
-      "This AI platform has streamlined my workflow significantly. From generating images for ads to getting instant code snippets, it's a must-have!"
+      'The operations support from ONE PLACE helped us streamline internal processes and improve overall efficiency. Their input was a game changer.'
   },
   {
-    name: 'Ava C.',
-    role: 'Marketing Specialist',
-    avatar: 'https://randomuser.me/api/portraits/women/5.jpg',
+    name: 'Layla F.',
+    role: 'Business Developer',
+    avatar: 'https://randomuser.me/api/portraits/women/15.jpg',
     testimonial:
-      'I love how intuitive the AI tools are. The chatbot even helps me craft persuasive email campaigns effortlessly!'
-  },
-  {
-    name: 'Liam D.',
-    role: 'Game Developer',
-    avatar: 'https://randomuser.me/api/portraits/men/6.jpg',
-    testimonial:
-      'The AI-generated code is clean and efficient. It helps me build game prototypes quickly without getting stuck on syntax issues.'
-  },
-  {
-    name: 'Olivia H.',
-    role: 'UX Designer',
-    avatar: 'https://randomuser.me/api/portraits/women/7.jpg',
-    testimonial:
-      'The AI image generator is perfect for wireframes and concept art. It saves me so much time in the early design stages!'
-  },
-  {
-    name: 'Ethan P.',
-    role: 'AI Researcher',
-    avatar: 'https://randomuser.me/api/portraits/men/8.jpg',
-    testimonial:
-      'Impressed by the chatbot’s ability to understand complex queries. The natural language processing is top-notch!'
-  },
-  {
-    name: 'Charlotte W.',
-    role: 'Freelancer',
-    avatar: 'https://randomuser.me/api/portraits/women/9.jpg',
-    testimonial:
-      'As a freelancer, this AI platform is my secret weapon. I use it for generating social media graphics, code snippets, and even client emails.'
-  },
-  {
-    name: 'Daniel M.',
-    role: 'Product Manager',
-    avatar: 'https://randomuser.me/api/portraits/men/10.jpg',
-    testimonial:
-      'The AI-assisted chatbot makes customer interactions smooth and efficient. It’s like having a 24/7 assistant!'
+      'Their partnership services opened new doors for us internationally. From supplier sourcing to market expansion, they handled it all seamlessly.'
   }
 ];
 export const arTestimonials = [
   {
-    name: 'إميلي ر.',
-    role: 'مصممة جرافيك',
-    avatar: 'https://randomuser.me/api/portraits/women/1.jpg',
+    name: 'نورا أ.',
+    role: 'مؤسسة شركة ناشئة',
+    avatar: 'https://randomuser.me/api/portraits/women/11.jpg',
     testimonial:
-      'مولّد الصور بالذكاء الاصطناعي غيّر قواعد اللعبة! يوفر لي ساعات من العمل من خلال إنشاء صور مذهلة على الفور. أنصح به بشدة!'
+      'خدمات التخطيط الاستراتيجي في ONE PLACE منحت عملي خارطة طريق واضحة وأساساً متيناً. كانت تحليلات السوق التي قدموها لا تقدر بثمن!'
   },
   {
-    name: 'جيك ت.',
-    role: 'مهندس برمجيات',
-    avatar: 'https://randomuser.me/api/portraits/men/2.jpg',
+    name: 'علي ك.',
+    role: 'مدير علامة تجارية',
+    avatar: 'https://randomuser.me/api/portraits/men/12.jpg',
     testimonial:
-      'أداة توليد الأكواد مذهلة بكل بساطة! تساعدني على تصميم النماذج الأولية بسرعة وتقترح تحسينات لم تخطر ببالي من قبل.'
+      'فريق التصميم في ONE PLACE حول رؤيتنا إلى واقع بإبداع واحترافية. أخيرًا، أصبح مظهر علامتنا يتطابق مع جودتنا.'
   },
   {
-    name: 'صوفيا ل.',
-    role: 'صانعة محتوى',
-    avatar: 'https://randomuser.me/api/portraits/women/3.jpg',
+    name: 'سارة م.',
+    role: 'رئيسة قسم التسويق',
+    avatar: 'https://randomuser.me/api/portraits/women/13.jpg',
     testimonial:
-      'الدردشة الذكية مذهلة للغاية! تساعدني على العصف الذهني لأفكار التدوين وحتى توليد عبارات جذابة لوسائل التواصل الاجتماعي.'
+      'من وسائل التواصل إلى الحملات البريدية، ONE PLACE رفعت من مستوى استراتيجياتنا التسويقية. نتائج ملموسة بجهد ذكي.'
   },
   {
-    name: 'مايكل ب.',
-    role: 'رائد أعمال',
-    avatar: 'https://randomuser.me/api/portraits/men/4.jpg',
+    name: 'عمر س.',
+    role: 'مدير العمليات',
+    avatar: 'https://randomuser.me/api/portraits/men/14.jpg',
     testimonial:
-      'هذه المنصة المدعومة بالذكاء الاصطناعي حسّنت سير عملي بشكل كبير. من توليد صور للإعلانات إلى الحصول على مقتطفات أكواد فورية، إنها أداة لا غنى عنها!'
+      'الدعم التشغيلي من ONE PLACE ساعدنا في تنظيم العمليات وتحسين الكفاءة الداخلية. مساهمتهم كانت فارقة.'
   },
   {
-    name: 'آفا ك.',
-    role: 'أخصائية تسويق',
-    avatar: 'https://randomuser.me/api/portraits/women/5.jpg',
+    name: 'ليلى ف.',
+    role: 'مطورة أعمال',
+    avatar: 'https://randomuser.me/api/portraits/women/15.jpg',
     testimonial:
-      'أحب مدى سهولة استخدام أدوات الذكاء الاصطناعي. حتى أن الدردشة الذكية تساعدني على صياغة حملات بريد إلكتروني مقنعة بكل سهولة!'
+      'خدمات الشراكات التجارية فتحت لنا أسواقًا جديدة. من توفير الموردين إلى التوسع الدولي، تعاملوا مع كل شيء بسلاسة.'
+  }
+];
+
+export const arAboutCarousel = [
+  {
+    name: 'من أين نبدأ',
+    avatar: 'https://cdn-icons-png.flaticon.com/512/942/942748.png',
+    paragraph: `في ONE PLACE، لا يهم فقط ما نفعله، بل كيف نفعله.
+
+نبدأ من السؤال، من الفجوة، من الفرصة التي لم ينتبه لها أحد. لا نبيع وقتًا أو أدوات، بل نعرض رؤية ننفذها بخبرة مؤسس، ونديرها بتفكير استراتيجي يسبق بخطوات.
+
+لا تسأل "ما الخدمات التي تقدمونها؟"، بل اسأل "متى نبدأ؟" وسنتولى المهمة من هناك.
+
+نحن لا ننفذ فقط، بل نفكر، ونربط، ونصنع الأثر.
+
+ONE PLACE ليست مجرد شركة، بل محرك خفي لا يُرى، لكن يظهر أثره في كل ما يتحرك حولك.`
   },
   {
-    name: 'ليام د.',
-    role: 'مطور ألعاب',
-    avatar: 'https://randomuser.me/api/portraits/men/6.jpg',
-    testimonial:
-      'الكود المولّد بالذكاء الاصطناعي نظيف وفعّال. يساعدني على بناء نماذج أولية للألعاب بسرعة دون أن أتعثر في مشاكل الصياغة.'
+    name: 'رؤيتنا',
+    avatar: 'https://cdn-icons-png.flaticon.com/512/3135/3135715.png',
+    paragraph: `أن نكون العقل المدبر والذراع المنفذة خلف كل فكرة طموحة.
+
+نقود التحول، نربط بين التخصصات، ونبني شبكة خدمات عالمية تتجاوز الحدود والتصنيفات.
+
+نطمح لأن نكون المكان الذي يجد فيه كل عميل كل ما يحتاجه، باحترافية وذكاء وسرعة حاسمة.`
   },
   {
-    name: 'أوليفيا هـ.',
-    role: 'مصممة تجربة المستخدم (UX)',
-    avatar: 'https://randomuser.me/api/portraits/women/7.jpg',
-    testimonial:
-      'مولّد الصور بالذكاء الاصطناعي مثالي للنماذج الأولية والفن المفاهيمي. يوفر لي الكثير من الوقت في مراحل التصميم المبكرة!'
+    name: 'رسالتنا',
+    avatar: 'https://cdn-icons-png.flaticon.com/512/1055/1055644.png',
+    paragraph: `نحن الكيان الذي يفكر بعقل المؤسس، وينفذ بطموح الشركات الكبرى.
+
+لا نقدم حلولاً جاهزة أو مكررة، بل نصنع تجارب مخصصة، مبنية على تحليل عميق وفهم واقعي للسوق والفرص والتوقيت.
+
+لا نبرر، ولا ننتظر الظروف. نحن نخلق البيئة، ونبني الأساس، وندير اللعبة بمنطق النتائج.
+
+لا نطلب الثقة، بل نكسبها ونثبتها ونحولها إلى شراكة طويلة الأمد.
+
+نؤمن أن كل مشروع يستحق استراتيجية، وكل فكرة منصة تنفيذ، وكل طموح فرصة حقيقية ليصبح واقعًا.`
+  }
+];
+export const enAboutCarousel = [
+  {
+    name: 'Where We Begin',
+    avatar: 'https://cdn-icons-png.flaticon.com/512/942/942748.png', // compass icon
+    paragraph: `At ONE PLACE, it's not just about what we do it's about how we do it.
+
+We begin with the right question, the unseen gap, the overlooked opportunity. We don’t sell time or tools we offer a vision, shaped by founder-level experience and managed with strategic foresight.
+
+Don't ask, "What services do you offer?" Instead, ask, "When do we start?" and we’ll lead the way from there.
+
+We don’t just execute. We think, connect, and deliver results.
+
+ONE PLACE isn’t just a company. It’s the engine behind the scenes, driving everything you see in motion.`
   },
   {
-    name: 'إيثان ب.',
-    role: 'باحث في الذكاء الاصطناعي',
-    avatar: 'https://randomuser.me/api/portraits/men/8.jpg',
-    testimonial:
-      'أُعجبت بقدرة الدردشة الذكية على فهم الاستفسارات المعقدة. معالجة اللغة الطبيعية فيها على أعلى مستوى!'
+    name: 'Our Vision',
+    avatar: 'https://cdn-icons-png.flaticon.com/512/3135/3135715.png', // telescope icon
+    paragraph: `To be the mind and the hand behind every bold idea.
+
+We lead transformation, connect disciplines, and build a global service network that goes beyond labels and borders.
+
+Our vision is to create the one place where every client finds everything they need professionally, intelligently, and without delay.`
   },
   {
-    name: 'شارلوت و.',
-    role: 'مستقلة (Freelancer)',
-    avatar: 'https://randomuser.me/api/portraits/women/9.jpg',
-    testimonial:
-      'كشخص مستقل، هذه المنصة المدعومة بالذكاء الاصطناعي هي سلاحي السري. أستخدمها لإنشاء رسومات وسائل التواصل، وأكواد، وحتى رسائل للعملاء.'
-  },
-  {
-    name: 'دانيال م.',
-    role: 'مدير منتج',
-    avatar: 'https://randomuser.me/api/portraits/men/10.jpg',
-    testimonial:
-      'الدردشة المدعومة بالذكاء الاصطناعي تجعل التفاعل مع العملاء سلساً وفعالاً. إنها أشبه بمساعد يعمل على مدار الساعة!'
+    name: 'Our Mission',
+    avatar: 'https://cdn-icons-png.flaticon.com/512/1055/1055644.png', // target icon
+    paragraph: `We think like founders and execute with the ambition of leading companies.
+
+We don’t deliver packaged solutions or repeat ideas. We create tailored experiences built on analysis, market insight, and the right timing.
+
+At ONE PLACE, we don’t wait for the right conditions we create them. We lay the foundation and lead with a focus on results, not excuses.
+
+We don’t ask for trust. We earn it, prove it, and turn it into lasting partnerships.
+
+Every project deserves a strategy. Every idea deserves the right platform. Every ambition deserves the chance to become reality.`
   }
 ];

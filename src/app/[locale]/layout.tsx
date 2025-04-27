@@ -3,13 +3,15 @@ import {Locale, hasLocale, NextIntlClientProvider} from 'next-intl';
 import {getTranslations, setRequestLocale} from 'next-intl/server';
 import {ReactNode} from 'react';
 import {clsx} from 'clsx';
+import {Toaster} from 'react-hot-toast';
 import {Inter} from 'next/font/google';
 import {routing} from '@/i18n/routing';
-import Navigation from '@/components/Layout/Navigation';
+import Navigation from '@/components/layout/Navigation';
 import './styles.css';
-import FloatingModeSwitch from '@/components/Layout/FloatingModeSwitch';
-import Footer from '@/components/Layout/Footer';
-import {ThemeProvider} from '@/components/Layout/ThemeProvider';
+import FloatingModeSwitch from '@/components/layout/FloatingModeSwitch';
+import Footer from '@/components/layout/Footer';
+import {ThemeProvider} from '@/components/layout/ThemeProvider';
+import LanguageSwitcher from '@/components/layout/LanguageSwitcher';
 
 type Props = {
   children: ReactNode;
@@ -47,7 +49,8 @@ export default async function LocaleLayout({children, params}: Props) {
       lang={locale}
       suppressHydrationWarning
     >
-      <body className={clsx(inter.className, 'flex  flex-col mx-4 ')}>
+      <body className={clsx(inter.className, 'flex  flex-col  ')}>
+        <Toaster />
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
@@ -55,6 +58,7 @@ export default async function LocaleLayout({children, params}: Props) {
           disableTransitionOnChange
         >
           <NextIntlClientProvider>
+            <LanguageSwitcher></LanguageSwitcher>
             <FloatingModeSwitch></FloatingModeSwitch>
             <Navigation />
             {children}

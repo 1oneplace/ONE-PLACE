@@ -8,6 +8,28 @@
     "title": "Welcome to ONE PLACE",
     "description": "ONE PLACE is a platform offering comprehensive solutions for startups and entrepreneurs from planning to execution and partnerships."
   },
+  "About": {
+    "aboutTitle": "About Us",
+    "aboutP1": "We don't operate as an execution agency, we work as an extension of the founder and a strategic partner at every step. At ONE PLACE, we reject canned solutions and copy-paste experiences. Every project deserves to be treated as a unique opportunity. We create environments for ideas, build tools for ambition, and manage the game with a results-first mindset. We don't ask for trust, we earn it and turn it into a long-term partnership built on reality and measured by impact.",
+
+    "valuesTitle": "Core Values",
+    "value1Title": "Purposeful Speed",
+    "value1": "We move fast, not carelessly. We accelerate outcomes without compromising quality.",
+    "value2Title": "Professionalism in the Details",
+    "value2": "We believe that the difference is made in the small things. Nothing is left to chance.",
+    "value3Title": "Absolute Integrity",
+    "value3": "We never promise what we can't deliver. Every commitment is followed through.",
+    "value4Title": "Excellence, Not Repetition",
+    "value4": "Every client gets a unique solution. We don’t copy, we create distinction.",
+    "value5Title": "No Excuses",
+    "value5": "We either deliver, or do it again. But we never justify failure.",
+    "value6Title": "Root Solutions, Not Band-Aids",
+    "value6": "We solve the core problem. No cover-ups, only real fixes.",
+
+    "whyTitle": "Why ONE PLACE",
+    "whyP1": "Because we don’t just react, we design the action from the start. We don’t wait for the market, we read it. We don’t just deliver solutions, we create context. We don’t sell experience, we engineer it, execute it silently, and let your results speak. We aren’t judged by the number of services we offer, but by the weight of our decisions. Everything we do is measured by one thing: impact. We offer what most can’t, a unified brain, unmatched speed, and a brand that stands alone. We don’t flatter the market, we redefine its priorities. And we won’t convince you with words, but with actions that leave no room for comparison.",
+    "whyCallToAction": "Choose ONE PLACE if you're seeking results, not excuses."
+  },
 
   "Manifest": {
     "name": "next-intl example"
@@ -19,8 +41,60 @@
     "title": "Page not found",
     "list": ["1", "2"]
   },
-
+  "SecondPage": {
+    "title": "sdasdas",
+    "subtitle": "ONE PLACE… is not what you do, but how you do it.",
+    "paragraph1": "We don’t start with a service — we start with the question, the gap, the unseen opportunity.",
+    "paragraph2": "We don’t sell time or tools… we sell a vision, executed with the experience of a founder and managed with the logic of a chess player who sees six moves ahead.",
+    "paragraph3": "At ONE PLACE, don’t ask us: “What services do you offer?”",
+    "paragraph4": "Ask us: “When do we start?”… and we’ll take it from there.",
+    "closing": "We don’t just execute — we think, connect, and drive outcomes. ONE PLACE is not a company. It’s the engine you don’t see, but whose effect you see in everything moving around you."
+  },
   "home": {
+    "ourApproachTitle": "Our Approach",
+    "ourApproachDescription": "We don't follow an assembly line... We craft a custom battle plan for each project, starting from the idea and continuing beyond delivery.",
+    "approachSteps": [
+      {
+        "title": "We Read You First",
+        "description": "We understand you as you think. We analyze your project, your market, your audience, and your timing."
+      },
+      {
+        "title": "We Draw the Scene",
+        "description": "We turn understanding into a smart, clear plan that walks carefully toward the result."
+      },
+      {
+        "title": "We Execute as if It's Our Project",
+        "description": "Execution driven by craftsmanship, free of excuses, monitored with uncompromising standards."
+      },
+      {
+        "title": "We Measure and Improve",
+        "description": "We review, enhance, and evolve because, for us, success is not a moment , it’s a system."
+      }
+    ],
+    "useCasesTitle": "Use Cases",
+    "useCasesDescription": "At ONE PLACE, we don’t cater to just one type  we adapt our solutions for those who understand the value of analysis, planning, and smart execution.",
+    "useCases": [
+      {
+        "title": "Startups",
+        "description": "They need partners who think with them, not just execute. We help in setup, building the business model, identity, launch plan, and even marketing and sales."
+      },
+      {
+        "title": "Struggling Projects",
+        "description": "We reanalyze the situation, reshape the strategy, and re-execute with a clear roadmap."
+      },
+      {
+        "title": "Entrepreneurs",
+        "description": "Those who have an idea or product and want to build it from scratch , from vision to launch, to expansion."
+      },
+      {
+        "title": "Companies Wanting to Expand",
+        "description": "We help you enter new markets, strengthen your brand, and build a robust market entry plan."
+      },
+      {
+        "title": "Organizations Seeking a Full Execution Partner",
+        "description": "Instead of dealing with five service providers, ONE PLACE offers you one executive mind that manages everything, saving you time and effort and making a real difference."
+      }
+    ],
     "name": "ONE PLACE",
     "slogan": "We don’t just take a role we write the scenario",
     "ctaText": "Book your consultation now",
@@ -46,17 +120,37 @@
       }
     ]
   },
+
   "Contact": {
-    "email": "info@oneplace.com",
-    "phone": "+966501234567",
-    "whatsapp": "https://wa.me/966501234567",
-    "location": "Riyadh, Saudi Arabia",
-    "mapEmbed": "https://www.google.com/maps/embed?pb=..."
+    "title": "Contact Us",
+    "description": "We’d love to hear from you! Fill out the form or reach out directly.",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "message": "Your Message",
+      "submit": "Send"
+    },
+    "successMessage": "Message sent successfully ✅",
+    "info": {
+      "phone": "Phone",
+      "email": "Email",
+      "whatsapp": "WhatsApp",
+      "whatsappCta": "Chat with us",
+      "ctaText": "Book your consultation now"
+    },
+    "values": {
+      "email": "info@oneplace.com",
+      "phone": "+971503511536",
+      "whatsapp": "https://wa.me/971503511536",
+      "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d115662.50751554877!2d55.08451417410558!3d25.075759263170264!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f5aa69a080001%3A0x2f6d4fdd7e616e88!2sDubai!5e0!3m2!1sen!2sae!4v1713792399000!5m2!1sen!2sae"
+    }
   },
   "SocialLinks": {
-    "twitter": "https://twitter.com/oneplace",
-    "instagram": "https://instagram.com/oneplace",
-    "linkedin": "https://linkedin.com/company/oneplace"
+    "twitter": "https://twitter.com",
+    "instagram": "https://instagram.com",
+    "linkedin": "https://linkedin.com",
+    "facebook": "https://facebook.com",
+    "whatsapp": "https://wa.me/966501234567"
   },
   "Values": [
     "Innovation",
@@ -87,61 +181,22 @@
       }
     ]
   },
+
   "Services": {
-    "title": "Our Services",
-    "serviceCategories": {
-      "planningAndEstablishment": {
-        "title": "Planning & Establishment",
-        "description": "We help you build your project from the ground up",
-        "points": [
-          "Feasibility Study",
-          "Market Analysis",
-          "Business Model Formulation",
-          "Establishing the Business Entity"
-        ]
-      },
-      "designAndIdentity": {
-        "title": "Design & Identity",
-        "description": "Build an identity that reflects you and attracts your audience",
-        "points": [
-          "Logo & Identity Design",
-          "Visual Identity Guide",
-          "Social Media Designs",
-          "Website Design"
-        ]
-      },
-      "marketingAndSales": {
-        "title": "Marketing & Sales",
-        "description": "Strategic marketing plans to achieve results",
-        "points": [
-          "Digital Marketing Strategies",
-          "Ad Campaign Management",
-          "Content Management",
-          "Sales Optimization"
-        ]
-      },
-      "managementAndOperations": {
-        "title": "Management & Operations",
-        "description": "We help you build and operate your team",
-        "points": [
-          "Setting Up Management Structures",
-          "Building Internal Processes",
-          "Hiring and Training",
-          "Operating Systems"
-        ]
-      },
-      "partnershipsAndConnections": {
-        "title": "Partnerships & Connections",
-        "description": "We connect you with partners that drive you forward",
-        "points": [
-          "Network of Consultants and Partners",
-          "Strategic Alliances",
-          "Connections with Funders",
-          "Entering New Markets"
-        ]
-      }
-    }
+    "whatTitle": "What We Do",
+    "whatP1": "We don’t offer a list of services…\nWe build integrated systems that guide you from vision to execution  without getting lost in the details.\n\nWe deliver what you need, as you need it, when it matters most.",
+    "area1Title": "Foundation & Strategic Planning",
+    "area1List": "Market Research\nProduct Research\nPricing\nCompany Building\nShort & Long-term Plans\nBusiness Feasibility",
+    "area2Title": "Design & Visual Experience",
+    "area2List": "Brand Identity\nWeb & Store Design\nProfessional Visual Content\nCreative Editing\nPresentations\nSocial Media Design",
+    "area3Title": "Marketing & Sales",
+    "area3List": "All Types of Digital Marketing\nCampaign Management\nContent Marketing\nSales Strategies\nSales Support & Offer Structuring",
+    "area4Title": "Operations & Management",
+    "area4List": "Project Management\nPerformance Development\nProcess Organization\nBusiness Model Development",
+    "area5Title": "Business Partnerships",
+    "area5List": "Supplier Sourcing\nBrokerage Services\nTrade Representation\nMarket Expansion\nCommission-based Marketing"
   },
+
   "UseCases": {
     "title": "Use Cases",
     "cases": [
@@ -187,52 +242,63 @@
     "brand": "ONE PLACE",
     "slogan": "Your all-in-one partner for growth",
     "contact": "Contact Us",
-    "location": "Riyadh, Saudi Arabia",
-    "email": "info@oneplace.com",
-    "phone": "+966501234567",
+    "location": "Dubai, United Arab Emirates",
+    "email": "info@1oneplace.com",
+    "phone": "+971503511536",
+
     "social": {
       "follow_us": "Follow Us",
-      "twitter": "https://twitter.com/oneplace",
-      "instagram": "https://instagram.com/oneplace",
-      "linkedin": "https://linkedin.com/company/oneplace"
+      "twitter": "https://twitter.com",
+      "instagram": "https://instagram.com",
+      "linkedin": "https://linkedin.com",
+      "facebook": "https://facebook.com",
+      "whatsapp": "https://wa.me/971503511536"
     },
     "copyright": "© 2025 ONE PLACE. All rights reserved."
   },
-
-  "BlogPosts": [
-    {
-      "title": "5 Steps to Start a Successful Project",
-      "slug": "how-to-start-successfully",
-      "date": "2024-12-10",
-      "excerpt": "Are you thinking of launching a new project? Here are the 5 key steps to start on the right path."
-    },
-    {
-      "title": "The Importance of Visual Identity for Your Brand",
-      "slug": "branding-importance",
-      "date": "2025-01-05",
-      "excerpt": "Visual identity is not just a pretty logo, it is a strategic tool for marketing."
-    }
-  ],
-  "Testimonials": [
-    {
-      "name": "Ahmed Al-Zahrani",
-      "title": "Founder of XYZ Company",
-      "message": "Working with ONE PLACE changed the way we think completely, tangible results and excellent response time!"
-    },
-    {
-      "name": "Sara Al-Harbi",
-      "title": "Marketing Manager",
-      "message": "The team is very capable and understanding, they gave us practical and realistic solutions, highly recommend working with them."
-    }
-  ],
-  "Partners": [
-    {
-      "name": "Alpha Company",
-      "logo": "/images/partners/alpha-logo.png"
-    },
-    {
-      "name": "Beta Group",
-      "logo": "/images/partners/beta-logo.png"
-    }
-  ]
+  "Blog": {
+    "pageTitle": "Latest Insights",
+    "blog1Title": "Strategic Planning for Real Impact",
+    "blog1Intro": "Discover how ONE PLACE builds strategic foundations for long-term success.",
+    "blog1Content": [
+      "At ONE PLACE, strategic planning isn’t a one-time document; it’s a living system. We design roadmaps that evolve with your business.",
+      "We combine market and product research, pricing insights, and feasibility studies to ensure your foundation isn’t built on guesswork.",
+      "Whether you’re building a company from scratch or pivoting an existing one, our team delivers clarity, speed, and measurable outcomes."
+    ],
+    "blog2Title": "Designing for Impact: Visual Identity at ONE PLACE",
+    "blog2Intro": "Learn how purposeful design fuels business growth and differentiation.",
+    "blog2Content": [
+      "In the crowded digital landscape, looking good is no longer enough. At ONE PLACE, we believe that design must do more than please the eye; it must communicate purpose, tell a story, and drive action.",
+      "Every business has a story, and design is the first chapter. Whether we’re building a brand identity from scratch or redesigning a digital storefront, we start by understanding the heart of your company.",
+      "We go beyond logos and colors. We design immersive experiences across all touchpoints  websites, presentations, social media, and more. Each asset is tailored to reinforce your brand personality and speak with consistency."
+    ],
+    "blog3Title": "More Than Marketing: Building Offers That Sell",
+    "blog3Intro": "How ONE PLACE engineers marketing systems that do more than promote  they convert.",
+    "blog3Content": [
+      "At ONE PLACE, marketing is not a standalone activity; it’s part of a larger, integrated system that connects vision to revenue.",
+      "The first step is understanding the core of what you’re offering. We work with you to define what makes your product or service valuable  not in vague terms, but in measurable outcomes.",
+      "Once the strategy is set, we design the messaging. We believe that content is king, but context is queen. So we shape narratives that not only capture attention but also educate and convert."
+    ],
+    "blog4Title": "Operations and Management: The Backbone of Business",
+    "blog4Intro": "Explore how ONE PLACE streamlines operations to enhance efficiency and scalability.",
+    "blog4Content": [
+      "Efficient operations are the unsung heroes of successful businesses. At ONE PLACE, we focus on optimizing your processes to ensure smooth day-to-day functioning.",
+      "Our approach includes project management, performance development, and process organization. We analyze your current operations to identify bottlenecks and implement solutions that drive productivity.",
+      "By developing robust business models and management strategies, we help you scale sustainably and adapt to changing market demands."
+    ],
+    "blog5Title": "Forging Strong Business Partnerships",
+    "blog5Intro": "Understand how ONE PLACE facilitates strategic partnerships to expand your market reach.",
+    "blog5Content": [
+      "Strategic partnerships can be a game-changer for business growth. ONE PLACE assists in identifying and establishing relationships that align with your goals.",
+      "We offer services like supplier sourcing, brokerage, and trade representation to connect you with partners that complement your offerings.",
+      "Our commission-based marketing strategies ensure that partnerships are not only formed but also nurtured for mutual success."
+    ],
+    "blog6Title": "Integrated Systems: From Vision to Execution",
+    "blog6Intro": "Discover how ONE PLACE transforms ideas into fully operational business systems.",
+    "blog6Content": [
+      "At ONE PLACE, we don’t just provide services; we build systems. Our unique approach to business transformation starts from the very foundation of your idea and doesn’t stop until it becomes a fully functioning, market-ready operation.",
+      "Our process starts with strategic planning. We dive deep into market research, feasibility studies, and product viability. We create a roadmap that includes short-term execution and long-term scalability.",
+      "From there, we focus on design, marketing, operations, and partnerships, ensuring every aspect of your business is aligned and optimized for success."
+    ]
+  }
 }

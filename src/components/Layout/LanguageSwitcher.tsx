@@ -21,13 +21,16 @@ export default function LanguageSwitcher() {
   };
 
   return (
-    <Button
-      variant="ghost"
-      onClick={toggleLocale}
-      disabled={isPending}
-      className="uppercase"
-    >
-      {otherLocale}
-    </Button>
+    <div className="fixed bottom-4 right-4 z-50">
+      <Button
+        variant="outline"
+        size="icon"
+        className="rounded-full uppercase"
+        onClick={toggleLocale}
+        disabled={isPending}
+      >
+        {otherLocale}
+      </Button>
+    </div>
   );
 }
