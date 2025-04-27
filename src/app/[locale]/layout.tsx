@@ -6,12 +6,12 @@ import {clsx} from 'clsx';
 import {Toaster} from 'react-hot-toast';
 import {Inter} from 'next/font/google';
 import {routing} from '@/i18n/routing';
-import Navigation from '@/components/ss/Navigation';
+import Navigation from '@/components/layout/Navigation';
 import './styles.css';
-import FloatingModeSwitch from '@/components/ss/FloatingModeSwitch';
-import Footer from '@/components/ss/Footer';
-import {ThemeProvider} from '@/components/ss/ThemeProvider';
-import LanguageSwitcher from '@/components/ss/LanguageSwitcher';
+import FloatingModeSwitch from '@/components/layout/FloatingModeSwitch';
+import Footer from '@/components/layout/Footer';
+import {ThemeProvider} from '@/components/layout/ThemeProvider';
+import LanguageSwitcher from '@/components/layout/LanguageSwitcher';
 
 type Props = {
   children: ReactNode;
