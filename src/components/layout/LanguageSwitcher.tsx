@@ -21,11 +21,10 @@ export default function LanguageSwitcher() {
   };
 
   return (
-    <div className="fixed bottom-4 right-4 z-50">
+    <div className="fixed bottom-8 left-3 z-50">
       <Button
         variant="outline"
-        size="icon"
-        className="rounded-full uppercase"
+        className="rounded-full uppercase h-16 w-16"
         onClick={toggleLocale}
         disabled={isPending}
       >

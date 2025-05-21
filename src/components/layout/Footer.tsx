@@ -44,13 +44,27 @@ export default function Footer() {
               target="_blank"
               aria-label="Twitter"
             >
-              <svg
-                className="w-5 h-5 text-secondary-foreground/70 hover:text-primary transition"
-                fill="currentColor"
-                viewBox="0 0 24 24"
+              <button
+                className=" group w-6 h-6 rounded transition relative
+             hover:bg-white hover:scale-110
+             flex items-center justify-center"
+                aria-label="X Platform Icon"
               >
-                <path d="M22.46 6c-.77.35-1.6.58-2.47.69a4.3 4.3 0 001.89-2.37 8.59 8.59 0 01-2.72 1.04A4.28 4.28 0 0016.11 4c-2.38 0-4.31 1.93-4.31 4.31 0 .34.04.68.11 1A12.17 12.17 0 013 5.13a4.31 4.31 0 001.33 5.74 4.2 4.2 0 01-1.95-.54v.05c0 2.01 1.43 3.68 3.33 4.06a4.32 4.32 0 01-1.94.07c.55 1.7 2.14 2.94 4.02 2.97A8.62 8.62 0 013 19.54 12.15 12.15 0 009.29 21c7.55 0 11.68-6.26 11.68-11.68 0-.18 0-.35-.01-.53A8.35 8.35 0 0022.46 6z" />
-              </svg>
+                <svg
+                  className="w-6 h-6 stroke-current 
+               group-hover:text-black"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <line x1="18" y1="6" x2="6" y2="18" />
+                  <line x1="6" y1="6" x2="18" y2="18" />
+                </svg>
+              </button>
             </Link>
             <Link
               href={t('social.instagram')}
@@ -58,11 +72,11 @@ export default function Footer() {
               aria-label="Instagram"
             >
               <svg
-                className="w-5 h-5 text-secondary-foreground/70 hover:text-primary transition"
+                className="w-6 h-6 hover:text-pink-600 hover:scale-125 transition"
                 fill="currentColor"
                 viewBox="0 0 24 24"
               >
-                <path d="M7.75 2h8.5A5.76 5.76 0 0122 7.75v8.5A5.76 5.76 0 0116.25 22h-8.5A5.76 5.76 0 012 16.25v-8.5A5.76 5.76 0 017.75 2zm0 2A3.75 3.75 0 004 7.75v8.5A3.75 3.75 0 007.75 20h8.5A3.75 3.75 0 0020 16.25v-8.5A3.75 3.75 0 0016.25 4h-8.5zM12 7a5 5 0 110 10 5 5 0 010-10zm0 2a3 3 0 100 6 3 3 0 000-6zm4.25-.75a.75.75 0 110 1.5.75.75 0 010-1.5z" />
+                <path d="M7.5 2C4.46 2 2 4.46 2 7.5v9C2 19.54 4.46 22 7.5 22h9c3.04 0 5.5-2.46 5.5-5.5v-9C22 4.46 19.54 2 16.5 2h-9zm0 2h9A3.5 3.5 0 0 1 20 7.5v9a3.5 3.5 0 0 1-3.5 3.5h-9A3.5 3.5 0 0 1 4 16.5v-9A3.5 3.5 0 0 1 7.5 4zm9.25 1.75a.75.75 0 0 0 0 1.5.75.75 0 0 0 0-1.5zM12 7a5 5 0 1 0 0 10 5 5 0 0 0 0-10zm0 2a3 3 0 1 1 0 6 3 3 0 0 1 0-6z" />
               </svg>
             </Link>
             <Link
@@ -71,7 +85,7 @@ export default function Footer() {
               aria-label="LinkedIn"
             >
               <svg
-                className="w-5 h-5 text-secondary-foreground/70 hover:text-primary transition"
+                className="w-6 h-6  hover:text-blue-700 hover:scale-125 transition"
                 fill="currentColor"
                 viewBox="0 0 24 24"
               >
@@ -84,7 +98,7 @@ export default function Footer() {
               aria-label="LinkedIn"
             >
               <svg
-                className="w-5 h-5 text-secondary-foreground/70 hover:text-primary transition"
+                className="w-6 h-6 hover:text-green-500 hover:scale-125 transition"
                 fill="currentColor"
                 viewBox="0 0 24 24"
               >
@@ -97,7 +111,7 @@ export default function Footer() {
               aria-label="LinkedIn"
             >
               <svg
-                className="w-5 h-5 text-secondary-foreground/70 hover:text-primary transition"
+                className="w-6 h-6  hover:text-blue-500  hover:scale-125 transition"
                 fill="currentColor"
                 viewBox="0 0 24 24"
               >

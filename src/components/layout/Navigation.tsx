@@ -15,7 +15,7 @@ export default function Navigation() {
   const t = (useTranslations as any)('NavItems');
 
   return (
-    <div className="  text-foreground border-b border-border">
+    <div className="text-foreground border-b border-border">
       <nav className="flex justify-between items-center p-2 ">
         <div className="md:hidden">
           <Sheet>
@@ -60,10 +60,10 @@ export default function Navigation() {
           <NavigationLink href={'/about' as any}>{t('about')}</NavigationLink>
         </div>
         <Link href="/">
-          <div className=" h-10 w-20 relative">
+          <div className="relative w-20 h-16">
             <Image
-              src="/images/logo.png"
-              className="rounded-xl "
+              src="/images/nav-logo.png"
+              className="rounded-xl object-cover"
               fill
               alt="one place logo "
             ></Image>

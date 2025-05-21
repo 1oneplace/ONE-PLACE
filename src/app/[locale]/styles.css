@@ -64,13 +64,6 @@
     @apply border-border;
   }
 }
-
 body {
-  @apply bg-auto bg-center;
-  background-image: url('/images/light-bg.png');
-}
-
-.dark body {
-  @apply bg-cover bg-center;
-  background-image: url('/images/dark-bg.png');
+  @apply bg-cover bg-center min-h-screen bg-[url("/images/light-bg.png")] dark:bg-[url("/images/dark-bg.png")];
 }

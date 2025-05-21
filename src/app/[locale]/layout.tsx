@@ -8,10 +8,11 @@ import {Inter} from 'next/font/google';
 import {routing} from '@/i18n/routing';
 import Navigation from '@/components/layout/Navigation';
 import './styles.css';
-import FloatingModeSwitch from '@/components/layout/FloatingModeSwitch';
+// import FloatingModeSwitch from '@/components/layout/FloatingModeSwitch';
 import Footer from '@/components/layout/Footer';
 import {ThemeProvider} from '@/components/layout/ThemeProvider';
 import LanguageSwitcher from '@/components/layout/LanguageSwitcher';
+import FloatingCta from '@/components/FloatingCta';
 
 type Props = {
   children: ReactNode;
@@ -44,27 +45,28 @@ export default async function LocaleLayout({children, params}: Props) {
   const direction = locale === 'ar' ? 'rtl' : 'ltr';
   return (
     <html
-      className="h-full"
+      className="h-full "
       dir={direction}
       lang={locale}
       suppressHydrationWarning
     >
-      <body className={clsx(inter.className, 'flex  flex-col  ')}>
-        <Toaster />
-        <ThemeProvider
-          attribute="class"
-          defaultTheme="system"
-          enableSystem
-          disableTransitionOnChange
-        >
-          <NextIntlClientProvider>
+      <body className={clsx(inter.className, 'flex  flex-col relative ')}>
+        <NextIntlClientProvider>
+          <Toaster />
+          <ThemeProvider
+            attribute="class"
+            defaultTheme="dark"
+            enableSystem={false} // set to true if you want to respect OS preference
+            disableTransitionOnChange
+          >
             <LanguageSwitcher></LanguageSwitcher>
-            <FloatingModeSwitch></FloatingModeSwitch>
-            <Navigation />
+            <FloatingCta></FloatingCta>
+            {/* <FloatingModeSwitch></FloatingModeSwitch> */}
+            <Navigation></Navigation>
             {children}
-          </NextIntlClientProvider>
-          <Footer></Footer>
-        </ThemeProvider>
+            <Footer></Footer>
+          </ThemeProvider>
+        </NextIntlClientProvider>
       </body>
     </html>
   );

@@ -5,7 +5,7 @@ import TypeIt from 'typeit-react';
 const TypingText = () => {
   const t = (useTranslations as any)('home');
   return (
-    <div className="text-muted-foreground font-semibold text-xl">
+    <div className="text-foreground font-semibold text-xl">
       <TypeIt
         options={{
           cursor: false,

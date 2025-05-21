@@ -25,20 +25,15 @@ export default function HomePage() {
         <div className="flex justify-center items-center">
           <Image
             src="/images/logo.png"
-            width={200}
-            height={100}
+            width={300}
+            height={200}
             alt="logo"
             className="rounded-xl "
           ></Image>
         </div>
-        <p className="text-5xl font-extrabold text-[#4D4D4D] inline">
-          ONE {'   '}
-          <span className="text-5xl font-extrabold text-primary inline">
-            PLACE
-          </span>
-        </p>
-        <TypingText></TypingText>
 
+        <TypingText></TypingText>
+    
         <CtaButton></CtaButton>
       </section>
       <section>
@@ -111,18 +106,8 @@ export default function HomePage() {
               )
             )}
         </div>
-
-        <div className="flex relative h-[80vh]  justify-center items-center mt-8">
-          <Image
-            src="/images/en.approach-infographic.png"
-            fill
-            alt="Approach Infographic"
-            className="rounded-xl shadow-lg"
-          />
-        </div>
       </section>
 
-      {/* Use Cases Section */}
       <section className="space-y-8">
         <h2 className="text-center text-4xl">{t('useCasesTitle')}</h2>
         <p className="text-center max-w-3xl mx-auto text-muted-foreground">
