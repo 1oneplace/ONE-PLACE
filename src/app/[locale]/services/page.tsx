@@ -94,7 +94,9 @@ export default function ServicesPage() {
                 </div>
               </CardContent>
               <CardFooter>
-                <CtaButton></CtaButton>
+                <div className="">
+                  <CtaButton></CtaButton>
+                </div>
               </CardFooter>
             </Card>
           </motion.div>

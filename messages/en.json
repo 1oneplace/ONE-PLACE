@@ -97,7 +97,7 @@
     ],
     "name": "ONE PLACE",
     "slogan": "We don’t just take a role we write the scenario",
-    "ctaText": "Book your consultation now",
+    "ctaText": "Book your consultation",
     "ctaTitle": "Ready to grow your project?",
     "howWeWork": "How We Work?",
     "ourServices": "Our Services",
@@ -136,7 +136,7 @@
       "email": "Email",
       "whatsapp": "WhatsApp",
       "whatsappCta": "Chat with us",
-      "ctaText": "Book your consultation now"
+      "ctaText": "Book your consultation"
     },
     "values": {
       "email": "info@oneplace.com",
@@ -244,7 +244,7 @@
     "contact": "Contact Us",
     "location": "Dubai, United Arab Emirates",
     "email": "info@1oneplace.com",
-    "phone": "",
+    "phone": "971563836022",
 
     "social": {
       "follow_us": "Follow Us",
