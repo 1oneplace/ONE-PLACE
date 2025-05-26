@@ -1,5 +1,6 @@
 import {notFound} from 'next/navigation';
 import {Locale, hasLocale, NextIntlClientProvider} from 'next-intl';
+
 import {getTranslations, setRequestLocale} from 'next-intl/server';
 import {ReactNode} from 'react';
 import {clsx} from 'clsx';
@@ -13,6 +14,7 @@ import Footer from '@/components/layout/Footer';
 import {ThemeProvider} from '@/components/layout/ThemeProvider';
 import LanguageSwitcher from '@/components/layout/LanguageSwitcher';
 import FloatingCta from '@/components/FloatingCta';
+import VercelAnalytics from '@/components/layout/VercelAnalytics';
 
 type Props = {
   children: ReactNode;
@@ -67,6 +69,7 @@ export default async function LocaleLayout({children, params}: Props) {
             <Footer></Footer>
           </ThemeProvider>
         </NextIntlClientProvider>
+        <VercelAnalytics></VercelAnalytics>
       </body>
     </html>
   );
